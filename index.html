@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+        <aside class="left">
+            <div class="top">
+                <div class="logo">
+                    <img src="images/Logo.svg" alt="logo" class="logotip">
+                    <h2 class="name">GOODFOOD</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <nav class="navigation">
+                <h2 class="navigation-title">MENU</h2>
+                <div class="navigation__menu">
+                    <a href="#!" class="navigation__menu-link active">
+                        <span class="material-icons-sharp">assessment</span>
+                        <h3 class="navigation__menu-title">Dashboard</h3>
+                    </a>
+                    <a href="#!" class="navigation__menu-link">
+                        <span class="material-icons-sharp">shopping_cart</span>
+                        <h3 class="navigation__menu-title">Food Order</h3>
+                    </a>
+                    <a href="#!" class="navigation__menu-link">
+                        <span class="material-icons-sharp">article</span>
+                        <h3 class="navigation__menu-title">Manage Menu</h3>
+                    </a>
+                    <a href="#!" class="navigation__menu-link">
+                        <span class="material-icons-sharp">sms</span>
+                        <h3 class="navigation__menu-title">Customer Review</h3>
+                    </a>
+                </div>
+                <h2 class="navigation-title">OTHERS</h2>
+                <div class="navigation__others">
+                    <a href="#!" class="navigation__others-link">
+                        <span class="material-icons-sharp">settings</span>
+                        <h3 class="navigation__others-title">Settings</h3>
+                    </a>
+                    <a href="#!" class="navigation__others-link">
+                        <span class="material-icons-sharp">account_balance_wallet</span>
+                        <h3 class="navigation__others-title">Payment</h3>
+                    </a>
+                    <a href="#!" class="navigation__others-link">
+                        <span class="material-icons-sharp">account_circle</span>
+                        <h3 class="navigation__others-title">Accounts</h3>
+                    </a>
+                    <a href="#!" class="navigation__others-link">
+                        <span class="material-icons-sharp">info</span>
+                        <h3 class="navigation__others-title">Help</h3>
+                    </a>
+                </div>
+            </nav>
+        </aside>
+        <main class="main">
+            <button id="menu_btn">
+                <span class="material-icons-sharp">menu</span>
+            </button>
+            <section class="profile">
+                <div class="your-profile">
+                    <p class="avatar">&#127828;</p>
+                    <select class="select-profole">
+                        <option class="select-profole-item">Delicious Burger</option>
+                    </select>
+                    <span class="material-icons-sharp">notifications_active</span>
+                </div>
+            </section>
+            <div class="border"></div>
+            <section class="main-info">
+                <h2 class="main-title">Dashboard</h2>
+                <div class="information">
+                    <div class="Revenue">
+                        <div class="header">
+                            <h2 class="title">Revenue</h2>
+                            <a href="#!" class="view-report">View Report</a>
+                        </div>
+                        <div class="weak">
+                            <h3 class="IDR">IDR 7.852.000</h3>
+                            <span class="material-icons-sharp green">arrow_upward</span>
+                            <p class="up"><span class="green">2.1%</span> vs last week</p>
+                        </div>
+                        <p class="data-range">Sales from 1-7 Feb, 2025</p>
+                            <div class="Revenue-chart">
+                                <p class="Revenue-chart-item">First courses - 20%</p>
+                                <div class="pipe">
+                                    <div class="sector1"></div>
+                                </div>
+                                <p class="Revenue-chart-item">Burgers - 30%</p>
+                                <div class="pipe">
+                                    <div class="sector2"></div>
+                                </div>
+                                <p class="Revenue-chart-item">Lunch boxes - 40%</p>
+                                <div class="pipe">
+                                    <div class="sector3"></div>
+                                </div>
+                                <p class="Revenue-chart-item">Drinks and snacks - 10%</p>
+                                <div class="pipe">
+                                    <div class="sector4"></div>
+                                </div>
+                            </div>
+                            <p class="range"><img src="images/Ellipse 7.svg" alt="circle" class="purple-circle">Last 7 days</p>
+                        </div>
+                        <div class="order-time-block">
+                            <div class="header">
+                                <h2 class="title">Order Time</h2>
+                                <a href="#!" class="view-report osoben">View Report</a>
+                            </div>
+                            <p class="data-range">From 1-6 Feb, 2025</p>
+                            <div class="chart-container">
+                                <div class="chart">
+                                    <svg width="270" hight="270" viewBox="0 0 150 100">
+                                        <circle cx="50" cy="50" r="40" fill="none" stroke="#eee" stroke-width="15"></circle>
+                                        <circle class="circle-segment-1" cx="50" cy="50" r="40" fill="none" stroke="#5A6ACF" stroke-width="15"
+                                        stroke-dasharray="115.097, 282.74" transform="rotate(-90 50 50)"/>
+                                        <circle class="circle-segment-2" cx="50" cy="50" r="40" fill="none" stroke="#8593ED" stroke-width="15"
+                                        stroke-dasharray="97.4768, 282.74" transform="rotate(54 50 50)"/>
+                                        <circle class="circle-segment-3" cx="50" cy="50" r="40" fill="none" stroke="#C7CEFF" stroke-width="15"
+                                        stroke-dasharray="78.1672, 282.74" transform="rotate(158 50 50)"/>
+                                    </svg>
+                                </div>
+                                <div class="chart-info">
+                                    <div class="info-box">
+                                        <h3 class="info-title">Afternoon</h3>
+                                        <p class="time">1pm - 4pm</p>
+                                        <p class="orders">1.890 orders</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="timesday">
+                                <div class="Afternoon">
+                                    <h3 class="timeday"><img src="images/Ellipse 7.svg" alt="circle" class="circle-Afternoon">Afternoon</h3>
+                                    <p class="procent">40%</p>
+                                </div>
+                                <div class="Evening">
+                                    <h3 class="timeday"><img src="images/Ellipse 7(1).svg" alt="circle" class="circle-Evening">Evening</h3>
+                                    <p class="procent">32%</p>
+                                </div>
+                                <div class="Morning">
+                                    <h3 class="timeday"><img src="images/Ellipse 7(2).svg" alt="circle" class="circle-Morning">Morning</h3>
+                                    <p class="procent">28%</p>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="Your-Rating">
+                        <div class="header">
+                            <h2 class="title">Your Rating</h2>
+                        </div>
+                        <p class="data-range">Lorem ipsum dolor sit amet, consectetur</p>
+                        <img src="images/Group 339.svg" alt="raiting" class="raiting">
+                    </div>
+                    <div class="Most-Ordered-Food">
+                        <div class="header">
+                            <h2 class="title">Most Ordered Food</h2>
+                        </div>
+                        <p class="data-range">Lorem ipsum dolor sit amet, consectetur</p>
+                        <div class="food">
+                            <div class="food-item">
+                                <img src="images/Group 299.svg" alt="food1" class="food-img">
+                                <p class="food-name">Fresh Salad Bowl</p>
+                                <h4 class="food-IDR">IDR 45.000</h4>
+                            </div>
+                            <div class="food-item">
+                                <img src="images/food2.svg" alt="" class="food-img">
+                                <p class="food-name">Chicken Noodles</p>
+                                <h4 class="food-IDR">IDR 75.000</h4>
+                            </div>
+                            <div class="food-item">
+                                <img src="images/food3.svg" alt="" class="food-img">
+                                <p class="food-name">Smoothie Fruits</p>
+                                <h2 class="food-IDR">IDR 45.000</h2>
+                            </div>
+                            <div class="food-item">
+                                <img src="images/food4.svg" alt="" class="food-img">
+                                <p class="food-name">Hot Chicken Wings</p>
+                                <h3 class="food-IDR">IDR 45.000</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <div class="header">
+                            <h2 class="title">Order</h2>
+                            <a href="#!" class="view-report">View Report</a>
+                        </div>
+                        <div class="weak">
+                            <h3 class="IDR">2.568</h3>
+                            <span class="material-icons-sharp red">arrow_downward</span>
+                            <p class="up"><span class="red">2.1%</span> vs last week</p>
+                        </div>
+                        <p class="data-range">Sales from 1-7 Feb, 2025</p>
+                        <div class="charts">
+                            <div class="chart__wrap">
+                              <div class="row">
+                                <div class="td">
+                                  <div class="col-purple">
+                                    <div class="rate">
+                                    </div>
+                                    <span class="col-purple-first"></span>
+                                  </div>
+                                </div>
+                                <div class="td">
+                                  <div class="col-purple">
+                                    <div class="rate">
+                                    </div>
+                                    <span class="col-purple-second"></span>
+                                  </div>
+                                </div>
+                                <div class="td">
+                                    <div class="col-purple">
+                                      <div class="rate">
+                                      </div>
+                                      <span class="col-purple-third"></span>
+                                    </div>
+                                  </div>
+                                  <div class="td">
+                                    <div class="col-purple">
+                                      <div class="rate">
+                                      </div>
+                                      <span class="col-purple-fourth"></span>
+                                    </div>
+                                  </div>
+                                <div class="td">
+                                  <div class="col-purple">
+                                    <div class="rate">
+                                    </div>
+                                    <span class="col-purple-fifth"></span>
+                                  </div>
+                                </div>
+                                <div class="td">
+                                  <div class="col-purple">
+                                    <div class="rate">
+                                    </div>
+                                    <span class="col-purple-sixth"></span>
+                                  </div>
+                                </div>
+                                <div class="td">
+                                    <div class="col-purple">
+                                      <div class="rate">
+                                      </div>
+                                      <span class="col-purple-seventh"></span>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="row second">
+                                <div class="td"> 
+                                  <span class="col-blue-first"></span>
+                                </div>
+                                <div class="td"> 
+                                    <span class="col-blue-second"></span>
+                                </div>
+                                <div class="td"> 
+                                    <span class="col-blue-third"></span>
+                                </div>
+                                <div class="td"> 
+                                    <span class="col-blue-fourth"></span>
+                                </div>
+                                <div class="td">
+                                   <span class="col-blue-fifth"></span>
+                                </div>
+                                <div class="td"> 
+                                  <span class="col-blue-sixth"></span>
+                                </div>
+                                <div class="td"> 
+                                  <span class="col-blue-seventh"></span>
+                                </div>
+                              </div>
+                              <div class="row year">
+                                <div class="td">01</div>
+                                <div class="td">02</div>
+                                <div class="td">03</div>
+                                <div class="td">04</div>
+                                <div class="td">05</div>
+                                <div class="td">06</div>
+                                <div class="td">07</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="ranges">
+                            <p class="range"><img src="images/Ellipse 7.svg" alt="circle" class="purple-circle">Last 7 days</p>
+                            <p class="range"><img src="images/Ellipse 8.svg" alt="circle" class="purple-circle">Last Week</p>
+                          </div>
+                          
+                    </div>
+                </div>
+            </section>
+            <script src="js/script.js"></script>
+        </main>
+</body>
+</html>
